@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch & Weights (Optional: comment out if you want to push best.pt under 100MB)
+weights/*.pt
+yolov8n.pt
+
+# Large media files (GitHub has a strict 100MB file limit)
+input_videos/
+output_videos/
+*.mp4
+*.avi
+
+# OS / Editor settings
+.vscode/
+.idea/
+*.DS_Store
