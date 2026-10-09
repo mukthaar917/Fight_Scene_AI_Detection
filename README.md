@@ -24,5 +24,25 @@ Getting Started
 
 1. Clone the Repository
 
-git clone [https://github.com/mukthaar917/Fight_Scene_AI_Detection.git](https://github.com/mukthaar917/Fight_Scene_AI_Detection.git)
-cd Fight_Scene_AI_Detection
+  git clone [https://github.com/mukthaar917/Fight_Scene_AI_Detection.git](https://github.com/mukthaar917/Fight_Scene_AI_Detection.git)
+  cd Fight_Scene_AI_Detection
+
+2. Set Up Virtual Environment & Dependencies
+
+   py -3.12 -m venv .venv
+  .venv\Scripts\Activate.ps1
+   pip install -r requirements.txt
+
+3. Run Inference
+
+   Place your input video in input_videos/ and model weights in weights/, then run:
+   python detect_fight_precise.py
+
+4. Step 3: Commit and Push the Updates
+
+   Push the documentation and dependency files to GitHub:
+
+  powershell
+  git add README.md requirements.txt
+  git commit -m "Add project documentation and requirements.txt"
+  git push
