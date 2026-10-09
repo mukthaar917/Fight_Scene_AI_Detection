@@ -3,7 +3,7 @@ AI-Based CCTV Violence & Fight Scene Detection
 An automated, real-time surveillance pipeline built with YOLOv8 and OpenCV designed to detect altercations and violence in outdoor CCTV feeds while minimizing false positives from normal pedestrian activity.
 
 
-Features
+Features :
 
 Altercation Detection: Custom-weighted YOLOv8 model combined with a secondary tracker to accurately flag fighting individuals.
 False-Positive Suppression: Excludes regular pedestrians, cleaning staff, and swaying background objects (banners/flags).
