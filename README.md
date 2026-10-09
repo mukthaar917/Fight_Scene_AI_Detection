@@ -43,6 +43,7 @@ Getting Started
    Push the documentation and dependency files to GitHub:
 
   powershell
+  
   git add README.md requirements.txt
   git commit -m "Add project documentation and requirements.txt"
   git push
